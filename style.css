@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    color: #F6F6F6;
+    box-sizing: border-box;
+}
+
+/********************************HEADER**************************************/
+nav{
+    width: 450px;
+    display: flex;
+    gap: 40px;
+    padding: 4% 0 0 8%;
+}
+nav a{
+    font-size: 1.5rem;
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #1b8faa;
+}
+/********************************MAIN**************************************/
+/****************HOME*****************/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 8%;
+    gap: 50px;
+}
+.main-conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+h1{
+    font-family: 'Krona One', sans-serif;
+    font-size: 2.25rem;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+    list-style: disc;
+}
+img{
+    width: 50%;
+}
+strong{
+    color: #22D4FD;
+}
+
+h2{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.main-botoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    width: 50%;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    
+}
+a img{
+    width: 20%;
+}
+.botao:hover{
+    background-color: #272727;
+}
+
+/********************************FOOTER**************************************/
+
+footer {
+    background-color: #22D4FD;
+    color: #000000;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 23px;
+}
+
+@media (max-width: 1200px){
+    main{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .main-conteudo{
+        width: auto;
+    }
+}
