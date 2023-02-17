@@ -1,5 +1,5 @@
 # portifolio-ficticio
-Meu primeiro repositório desenvolvido com os cursos de HTML e CSS da Alura \n
+Meu primeiro repositório desenvolvido com os cursos de HTML e CSS da Alura
 
 Para melhor visualização do resultado:
 
